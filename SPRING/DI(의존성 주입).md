@@ -6,7 +6,7 @@
     그럼 느슨한 결합을 알아보기 전에 강한 결합의 문제점부터 알아보자!
 
 </aside>
-
+---
 - **강한 결합의 문제점**
     
     ['**강한 결합**' 이해를 위한 예제]
@@ -68,7 +68,7 @@
     
 
 ![3](https://user-images.githubusercontent.com/109019062/210706166-3b1ccff2-b92d-4d39-813d-ba2080c663f7.PNG)
-    
+ ---   
 - **강한 결합 해결방법**
     
 
@@ -105,7 +105,7 @@
         }
         
         // 객체 생성
-        **Service1 service1 = new Service1(repository1);**
+        Service1 service1 = new Service1(repository1);
         ```
         
         ![image](https://user-images.githubusercontent.com/109019062/210707280-c16211bc-98f1-486b-8933-a4280bd6eca9.png)
@@ -138,9 +138,9 @@
             }
             
             // 객체 생성
-            **String id = "sa";
-            String pw = "";**
-            Repository1 repository1 = new Repository1(**id, pw**);
+            String id = "sa";
+            String pw = "";
+            Repository1 repository1 = new Repository1(id, pw);
             ```
             
     
@@ -153,13 +153,13 @@
    결론적으로, **강한 결합 ⇒ 느슨한 결합**
     
    ![image](https://user-images.githubusercontent.com/109019062/210707348-047b315e-4f19-47e2-8f61-b5f6ed483455.png)
-    
+  ---  
 - **DI (의존성 주입)의 이해**
     
     ![image](https://user-images.githubusercontent.com/109019062/210707406-a7c00505-5b2e-4758-ac0e-caf5f302aeac.png)
     
    
-👉 그렇다면 '강한 결합'을 해결할 방법이 없을까?
+👉 "제어의 역전 (IoC: Inversion of Control)"
 
     프로그램의 제어 흐름이 뒤바뀜
     원래는 Controller에서 service가 필요하면 service를 생성해서 사용하는 흐름이었다면
@@ -174,3 +174,19 @@
   - **용도에 맞게 필요한 객체를 그냥 가져다 사용**
     - "**DI (Dependency Injection)**" 혹은 한국말로 "**의존성 주입**"이라고 부릅니다.
       - 사용할 객체가 어떻게 만들어졌는지는 알 필요 없음
+---
+- **DI의 장점**
+    
+    **1. 의존성이 줄어든다.**
+    
+    DI로 구현하게 되었을 때, 주입받는 대상이 변하더라도 그 구현 자체를 수정할 일이 없거나 줄어들게됨.
+    
+    **2. 재사용성이 높은 코드가 된다.**
+    
+    **3. 테스트하기 좋은 코드가 된다.**
+    
+    테스트를 분리하여 진행할 수 있다.
+    
+    **4. 가독성이 높아진다.**
+    
+    기능들을 별도로 분리하게 되어 자연스레 가동성이 높아진다.

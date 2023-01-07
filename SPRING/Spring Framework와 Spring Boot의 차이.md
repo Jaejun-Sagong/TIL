@@ -103,11 +103,11 @@
 
 
 
-   Spring Boot로 실행할 수 있는 애플리케이션을 만들기 시작하면 
-   클래스에 @SpringBootApplication이라는 어노테이션을 확인할 수 있습니다.
-   이것을 제거하고 프로그램을 실행하면, 
-   일반적인 자바 프로그램과 동일하게 실행됩니다.
-   해당 어노테이션 덕분에 많은 외부 라이브러리, 내장 톰캣 서버 등이 실행될 수 있습니다.
+Spring Boot로 실행할 수 있는 애플리케이션을 만들기 시작하면 
+클래스에 @SpringBootApplication이라는 어노테이션을 확인할 수 있습니다.
+이것을 제거하고 프로그램을 실행하면, 
+일반적인 자바 프로그램과 동일하게 실행됩니다.
+해당 어노테이션 덕분에 많은 외부 라이브러리, 내장 톰캣 서버 등이 실행될 수 있습니다.
 
 ![https://blog.kakaocdn.net/dn/O1s64/btq6fUtDlNw/4AZNiPfyegYEt9x1N6Lgt1/img.png](https://blog.kakaocdn.net/dn/O1s64/btq6fUtDlNw/4AZNiPfyegYEt9x1N6Lgt1/img.png)
 

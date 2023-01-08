@@ -27,7 +27,7 @@
 
 ### **[ Servlet 동작 방식 ]**
 
-![image](https://user-images.githubusercontent.com/109019062/211189021-7fcc42e8-0101-454f-917d-5ddb8825cdfe.png)
+![image](https://user-images.githubusercontent.com/109019062/211196499-723ac102-9528-4d88-8577-c4de83671f7a.png)
 
 1. 사용자(클라이언트)가 **URL을 입력하면** **HTTP Request가 Servlet Container로 전송**합니다.
 2. 요청을 전송받은 **Servlet Container는 HttpServletRequest, HttpServletResponse 객체를 생성**합니다.

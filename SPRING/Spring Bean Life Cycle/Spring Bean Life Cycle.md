@@ -4,7 +4,7 @@
 ## **Bean Life Cycle**
 
 - Spring의 **Bean은** Java 또는 XML bean 정의를 기반으로 **컨테이너가 시작될 때 인스턴스화 되어야 합니다.**
-- Bean을 사용 가능한 상태로 만들기 위해 사전, 사후 초기화 단계를 수행해야 할 수도 있습니다.
+- Bean을 사용 가능한 상태로 만들기 위해 사전, 사후 초기화 단계를 수행해야 할 수도 있습니다.(동시성 문제 해결을 위해서가 아닐까?)
 
 - 그 후 **Bean이 더 이상 필요하지 않으면 IoC Container에서 제거됩니다**.
 
@@ -12,9 +12,10 @@
 
 > 즉, **Bean의 Life Cycle이란** **해당 객체가 언제, 어떻게 생성되어 소멸되기 전까지 어떤 작업을 수행하고 언제, 어떻게 소멸되는지 일련의 과정을 이르는 말**입니다.
 > 
-- Spring Container는 이런 빈 객체의 생명주기를 컨테이너의 생명주기 내에서 관리하고 객체 생성이나 소멸 시 호출될 수 있는 **콜백 메서드**를 제공하고 있습니다. ****
-    - Spring Container  - 초기화 : Bean을 등록, 생성, 주입
-                                 - 종료 : Bean 객체들을 소멸
+- Spring Container는 이런 빈 객체의 생명주기를 컨테이너의 생명주기 내에서 관리하고 객체 생성이나 소멸 시 호출될 수 있는 **콜백 메서드**를 제공하고 있습니다.
+    - Spring Container  
+      - 초기화 : Bean을 등록, 생성, 주입       
+      - 종료 : Bean 객체들을 소멸
     - 콜백: 콜백함수를 부를 때 사용되는 용어이며 콜백 함수를 등록하면 특정 이벤트가 발생했을 때 해당 메소드가 호출됨
     즉, 조건에 따라 실행될 수도 실행되지 않을 수도 있는 개념.
     이를 토대로 간단히 스프링 **Bean Life Cycle** 을 요약하면
@@ -45,7 +46,9 @@ Spring Framework는 빈 라이프 사이클을 제어하기 위한 다음과 같
 
 2. 설정 정보에 초기화 메서드 init( ), 종료 메서드 destory( ) 지정하는 방법
 
-3. @PostConstruct, @PreDestroy 애노테이션각각의 방법에 대해 더 자세히 알아봅시다.
+3. @PostConstruct, @PreDestroy 애노테이션    
+   
+각각의 방법에 대해 더 자세히 알아봅시다.
 
 ### **1. InitializingBean, DisposableBean callback interfaces**
 
@@ -55,13 +58,17 @@ Spring Framework는 빈 라이프 사이클을 제어하기 위한 다음과 같
 void afterPropertiesSet() throws Exception;
 ```
 
-: afterPropertiesSet() 메서드로 초기화를 지원합니다.: 의존 관계 주입이 끝난 후 초기화 진행**• DisposableBean**: 스프링 컨테이너가 빈을 소멸시키기 전에 콜백을 얻을 수 있다.
+ afterPropertiesSet() 메서드로 초기화를 지원합니다.   
+ 의존 관계 주입이 끝난 후 초기화 진행   
+
+- **DisposableBean**: 스프링 컨테이너가 빈을 소멸시키기 전에 콜백을 얻을 수 있다.
 
 ```java
 void destroy() throws Exception;
 ```
 
-: destory() 메소드로 소멸을 지원합니다.: Bean 종료 전 마무리 작업 ex) 자원해제 close( ) 등
+destory() 메소드로 소멸을 지원합니다.   
+Bean 종료 전 마무리 작업 ex) 자원해제 close( ) 등
 
 ```java
 import org.springframework.beans.factory.DisposableBean;
@@ -83,10 +90,11 @@ public class DemoBean implements InitializingBean, DisposableBean
 }
 ```
 
-**단점**: 해당 인터페이스는 스프링 전용 인터페이스로 해당 코드가 인터페이스에 의존한다.   
-        : 초기화, 소멸 메소드를 오버라이드 하기 때문에 메소드명을 변경할 수 없다.   
-        : 코드를 고칠 수 없는 외부 라이브러리에 적용 불가능하다.   
-        : 또한 인터페이스를 사용하는 초기화 및 종료 방법은 스프링 초창기에 나온 방법들이며, 지금은 거의 사용하지 않습니다.
+- **단점**   
+    - 해당 인터페이스는 스프링 전용 인터페이스로 해당 코드가 인터페이스에 의존한다.    
+    - 초기화, 소멸 메소드를 오버라이드 하기 때문에 메소드명을 변경할 수 없다.   
+    - 코드를 고칠 수 없는 외부 라이브러리에 적용 불가능하다.   
+    - 또한 인터페이스를 사용하는 초기화 및 종료 방법은 스프링 초창기에 나온 방법들이며, 지금은 거의 사용하지 않습니다.
 
 ### **2. 설정 정보에 사용자 정의 초기화 메서드, 종료 메서드 지정**
 

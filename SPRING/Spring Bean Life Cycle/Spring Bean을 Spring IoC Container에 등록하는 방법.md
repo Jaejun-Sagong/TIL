@@ -16,8 +16,8 @@ Spring Framework 에서는 Spring Bean을 얻기 위하여 ApplicationContext.ge
 - **자바 어노테이션(Java Annotation)을 사용하는 방법**
     - JAVA에서 **`Annotation`** 이라는 기능이 있습니다. 
     사전상으로는 주석의 의미이지만 Java 에서는 주석 이상의 기능을 가지고 있습니다. 
-    Annotation은 자바 소스 코드에 추가하여 사용할 수 있는 메타데이터의 일종입니다. 
-    소스코드에 추가하면 단순 주석의 기능을 하는 것이 아니라 특별한 기능을 사용할 수 있습니다.
+    **Annotation은 자바 소스 코드에 추가하여 사용할 수 있는 메타데이터의 일종**입니다. 
+    소스코드에 추가하면 단순 주석의 기능을 하는 것이 아니라 **특별한 기능을 사용할 수 있습니다.**
 
 Java에서는 @Override, @Deprecated 와 같은 기본적인 Annotation을 제공합니다. 아래의 상속 예제에서는 @Override 를 이용하여 상속임을 명시해줍니다. 
 

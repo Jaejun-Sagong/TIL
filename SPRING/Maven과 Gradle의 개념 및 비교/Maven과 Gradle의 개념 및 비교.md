@@ -1,11 +1,11 @@
 >maven과 gradle이 빌드관리도구인 것은 알고있지만 자세한 개념은 모르기에 maven과 gradle 각각의 개념과 정확한 차이점을 알아보고자 합니다.
 
 
-## **[1. 메이븐(Maven)](https://dev-coco.tistory.com/65#--%--%EB%A-%--%EC%-D%B-%EB%B-%---Maven-)**
+## **1. 메이븐(Maven)**
 
 ![https://blog.kakaocdn.net/dn/PA9i4/btq8bsoZE6Y/xNQw1nKBQP2i2OURKZDZn0/img.png](https://blog.kakaocdn.net/dn/PA9i4/btq8bsoZE6Y/xNQw1nKBQP2i2OURKZDZn0/img.png)
 
-### **[Maven이란?](https://dev-coco.tistory.com/65#Maven%EC%-D%B-%EB%-E%--%-F)**
+### **Maven이란?**
 
 - 아파치 메이븐은 자바용 프로젝트 관리 도구이다.
 - 아파치 Ant의 대안으로 만들어졌다.
@@ -17,7 +17,7 @@
 
 즉, 메이븐은 네트워크를 통해 연관된 라이브러리까지 같이 업데이트를 해주기 때문에  사용이 편리합니다.
 
-### **[POM - Project Object Model](https://dev-coco.tistory.com/65#POM%---%--Project%--Object%--Model)**
+### **POM - Project Object Model**
 
 Maven의 기능을 이용하기 위해 POM이 사용됩니다.
 
@@ -32,11 +32,11 @@ pom.xml에서 주요하게 다루는 기능들은 아래와 같습니다.
 
 ---
 
-## **[2. 그래들(Gradle)](https://dev-coco.tistory.com/65#--%--%EA%B-%B-%EB%-E%--%EB%--%A--Gradle-)**
+## **2. 그래들(Gradle)**
 
 ![https://blog.kakaocdn.net/dn/Eh1RA/btq79q6tnlQ/CQZ2CP3BJgDKBAiKAmCWLk/img.png](https://blog.kakaocdn.net/dn/Eh1RA/btq79q6tnlQ/CQZ2CP3BJgDKBAiKAmCWLk/img.png)
 
-### **[Gradle이란?](https://dev-coco.tistory.com/65#Gradle%EC%-D%B-%EB%-E%--%-F)**
+### **Gradle이란?**
 
 - 빌드, 프로젝트 구성/관리, 테스트, 배포 도구
 - 안드로이드 앱의 공식 빌드 시스템
@@ -55,13 +55,13 @@ Groovy 스크립트 언어로 구성되어 있기에 XML과 달리 변수선언,
 
 ---
 
-## **[3. 메이븐(Maven) VS 그래들(Gradle)](https://dev-coco.tistory.com/65#--%--%EB%A-%--%EC%-D%B-%EB%B-%---Maven-%--VS%--%EA%B-%B-%EB%-E%--%EB%--%A--Gradle-)**
+## **3. 메이븐(Maven) VS 그래들(Gradle)**
 
 먼저 스프링부트를 이용하여 같은 기능과 라이브러리 의존성을 가지는 maven과 gradle 프로젝트를 생성해보겠습니다.
 
 (Java 11 & SpringBoot 2.5.2)
 
-### **[pom.xml](https://dev-coco.tistory.com/65#pom-xml)**
+### **pom.xml**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -107,7 +107,7 @@ Groovy 스크립트 언어로 구성되어 있기에 XML과 달리 변수선언,
 </project>
 ```
 
-### **[build.gradle](https://dev-coco.tistory.com/65#build-gradle)**
+### **build.gradle**
 
 ```xml
 plugins {

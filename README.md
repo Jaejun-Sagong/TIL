@@ -2,8 +2,6 @@
 
 - 시간복잡도와 공간복잡도
     - [시간복잡도와 공간복잡도](https://github.com/Jaejun-Sagong/TIL/blob/main/Algorithm/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EC%99%80%20%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EC%99%80%20%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
-- Nginx
-    - [Nginx](https://github.com/Jaejun-Sagong/TIL/blob/main/SERVER/Nginx/Nginx.md)
 
 # JAVA
 
@@ -34,7 +32,8 @@
 
 - 아파치 톰캣
     - [아파치 톰캣](https://github.com/Jaejun-Sagong/TIL/blob/main/SERVER/%EC%95%84%ED%8C%8C%EC%B9%98%20%ED%86%B0%EC%BA%A3/%EC%95%84%ED%8C%8C%EC%B9%98%20%ED%86%B0%EC%BA%A3.md)
-
+- Nginx
+    - [Nginx](https://github.com/Jaejun-Sagong/TIL/blob/main/SERVER/Nginx/Nginx.md)
 # SPRING
 
 - DI(의존성 주입), IoC

@@ -1,6 +1,6 @@
 ## **Nginx란?**
 
-**Nginx란 트래픽이 많은 웹사이트의 서버(WAS)를 도와주는 비동기 이벤트 기반 구조의 경량화 웹 서버 프로그램입니다.** 클라이언트로부터 요청을 받았을 때 요청에 맞는 **정적 파일을 응답해주는 HTTP Web Server**로 활용되기도 하고, 또는 **`Reverse Proxy Server`**로 활용하여 **WAS의 부하를 줄일 수 있는 `로드밸런서` 역할**을 하기도 합니다.
+**Nginx란 트래픽이 많은 웹사이트의 서버(WAS)를 도와주는 비동기 이벤트 기반 구조의 경량화 웹 서버 프로그램입니다.** 클라이언트로부터 요청을 받았을 때 요청에 맞는 **정적 파일을 응답해주는 HTTP Web Server**로 활용되기도 하고, 또는 `Reverse Proxy Server`로 활용하여 **WAS의 부하를 줄일 수 있는 `로드밸런서` 역할**을 하기도 합니다.
 
 ## **Nginx가 만들어진 배경**
 
@@ -28,7 +28,7 @@
 
 더 이상 새로운 connetion을 생성하지 못함
 
-이를 **C10K(connection 10000 problem)**문제라고 하는데 **connection 10000개의 문제**라는 뜻 입니다. **Apache Server**는 구조적으로 아래와 같은 문제점이 있었습니다.
+이를 **C10K(connection 10000 problem)문제**라고 하는데 **connection 10000개의 문제**라는 뜻 입니다. Apache Server는 구조적으로 아래와 같은 문제점이 있었습니다.
 
 1. **메모리 부족**: connection이 연결될 때마다 프로세스를 생성
 2. **무거운 프로그램**: 확장성이 좋다는건 곧 리소스가 많다는 걸 의미
@@ -65,8 +65,7 @@
 ![https://blog.kakaocdn.net/dn/MJmKR/btrzRqXWYVL/qE1yuidBZCH2tc1PhSE2wk/img.png](https://blog.kakaocdn.net/dn/MJmKR/btrzRqXWYVL/qE1yuidBZCH2tc1PhSE2wk/img.png)
 
 ### Nginx의 이벤트(event)
-
-**Nginx**에서는 이러한 **connection 형성과 제거**, 그리고 **새로운 요청을 처리하는 것**을 **이벤트(event)**라고 합니다.
+**Nginx**에서는 이러한 **connection 형성과 제거**, 그리고 **새로운 요청을 처리하는 것**을 `이벤트(event)`라고 합니다.
 
 ![https://blog.kakaocdn.net/dn/JvKKk/btrzOHNCKAg/K4a81dAxcSjeqc14g5LMP0/img.png](https://blog.kakaocdn.net/dn/JvKKk/btrzOHNCKAg/K4a81dAxcSjeqc14g5LMP0/img.png)
 

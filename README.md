@@ -2,6 +2,8 @@
 
 - 시간복잡도와 공간복잡도
     - [시간복잡도와 공간복잡도](https://github.com/Jaejun-Sagong/TIL/blob/main/Algorithm/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EC%99%80%20%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EC%99%80%20%EA%B3%B5%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)
+- Nginx
+    - [Nginx](https://github.com/Jaejun-Sagong/TIL/blob/main/SERVER/Nginx/Nginx.md)
 
 # JAVA
 

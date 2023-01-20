@@ -15,7 +15,8 @@
         - [ORM](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JPA/JPA/ORM.md)
     - QueryDSL
         - [QueryDSL](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JPA/QueryDSL/QueryDSL.md)
-
+- JVM
+    - [JVM이란.md](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JVM/JVM%EC%9D%B4%EB%9E%80.md)
 # OS
 
 - 메모리의 구조

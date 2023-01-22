@@ -27,6 +27,7 @@
 - 프로세스와 스레드
     - [운영체제의 CPU 스케쥴링](https://github.com/Jaejun-Sagong/TIL/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%20CPU%20%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%A7%81.md)
     - [프로세스와 스레드의 차이](https://github.com/Jaejun-Sagong/TIL/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+    - [멀티스레드 vs 싱글스레드](https://github.com/Jaejun-Sagong/TIL/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C%20vs%20%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 - 동기와 비동기 개념과 차이
     - [동기와 비동기 개념과 차이](https://github.com/Jaejun-Sagong/TIL/blob/main/OS/%EB%8F%99%EA%B8%B0%EC%99%80%20%EB%B9%84%EB%8F%99%EA%B8%B0%20%EA%B0%9C%EB%85%90%EA%B3%BC%20%EC%B0%A8%EC%9D%B4/%EB%8F%99%EA%B8%B0%EC%99%80%20%EB%B9%84%EB%8F%99%EA%B8%B0%20%EA%B0%9C%EB%85%90%EA%B3%BC%20%EC%B0%A8%EC%9D%B4.md)
 

@@ -48,7 +48,8 @@
     - [Servlet](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/MVC%20DispatcherServlet%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC/Servlet.md)
 - Maven과 Gradle의 개념 및 비교
     - [Maven과 Gradle의 개념 및 비교](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Maven%EA%B3%BC%20Gradle%EC%9D%98%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EB%B9%84%EA%B5%90/Maven%EA%B3%BC%20Gradle%EC%9D%98%20%EA%B0%9C%EB%85%90%20%EB%B0%8F%20%EB%B9%84%EA%B5%90.md)
-- OAuth2.0
+- OAuth2.0 + JWT
+    - [JWT](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/OAuth2.0%20%2B%20JWT/JWT.md)
     - [OAuth2.0작동방식](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/OAuth2.0/OAuth2.0%EC%9E%91%EB%8F%99%EB%B0%A9%EC%8B%9D.md)
 - Spring Bean Life Cycle
     - [Spring Bean Life Cycle](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/Spring%20Bean%20Life%20Cycle.md)

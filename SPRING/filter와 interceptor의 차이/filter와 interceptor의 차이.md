@@ -8,7 +8,7 @@
 
 - J2EE 표준 스펙 기능입니다.
     - J2EE 란, 자바를 이용하여 서버 개발을 하기 위해 만들어진 플랫폼입니다.
-    - J2EE 스펙에 따라 제품으로 구현한 것을 [웹 애플리케이션 서버](https://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%EC%84%9C%EB%B2%84) 또는 [WAS](https://ko.wikipedia.org/wiki/WAS)(대표적으로 톰캣)라 불립니다.
+    - J2EE 스펙에 따라 제품으로 구현한 것을 웹 애플리케이션 서버 또는 WAS(대표적으로 톰캣)라 불립니다.
 - **Dispatcher Servlet 에 요청이 전달되기 전/후 에 URL 패턴에 맞는 모든 요청에 대해 부가작업을 처리할 수 있는 기능을 제공** 합니다.
 - Dispatcher Servlet 은 스프링 가장 앞단에 있는 프론트 컨트롤러 이기 때문에, **Filter 는 Spring 범위 밖에서 처리가 됩니다.**
 - 더 자세히 설명하면 **Filter 는 스프링 컨테이너가 아닌 Tomcat과 같은 웹 컨테이너에 의해 관리가 됩니다.**

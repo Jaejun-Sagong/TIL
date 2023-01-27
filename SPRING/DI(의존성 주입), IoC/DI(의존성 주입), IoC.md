@@ -11,7 +11,7 @@
     
     ['**강한 결합**' 이해를 위한 예제]
     
-    1. **Contoller1**  이  **Service1** 객체를 생성하여 사용
+    1. **Controller1**  이  **Service1** 객체를 생성하여 사용
         
         ```java
         public class Controller1 {
@@ -23,7 +23,7 @@
         }
         ```
         
-    2.  **Service1**  이 **Repostiroy1** 객체를 생성하여 사용
+    2.  **Service1**  이 **Repository1** 객체를 생성하여 사용
         
         ```java
         public class Service1 {
@@ -35,7 +35,7 @@
         }
         ```
         
-    3.  **Repostiroy1** 객체 선언
+    3.  **Repository1** 객체 선언
         
         ```java
         public class Repository1 { ... }
@@ -64,7 +64,7 @@
 - **Controller 5 개**가 각각 Service1 을 생성하여 사용 중
 - **Repository1** 생성자 변경에 의해..
     
-    ⇒ **모든 Contoller** 와 **모든 Service** 의 코드 변경이 필요
+    ⇒ **모든 Controller** 와 **모든 Service** 의 코드 변경이 필요
     
 
 ![3](https://user-images.githubusercontent.com/109019062/210706166-3b1ccff2-b92d-4d39-813d-ba2080c663f7.PNG)
@@ -110,7 +110,7 @@
         
         ![image](https://user-images.githubusercontent.com/109019062/210707280-c16211bc-98f1-486b-8933-a4280bd6eca9.png)
         
-  3. **Contoller1**  선언 ( **service1** 사용)
+  3. **Controller1**  선언 ( **service1** 사용)
         
         ```java
         Class Controller1 {
@@ -148,7 +148,7 @@
     
   ⇒ **Repository1** 생성자 변경은 이제 누구에게도 피해(?) 를 주지 않음
     
-  ⇒ **Service1** 생성자가 변경되면? **모든 Contoller** → Controller 변경 필요 X
+  ⇒ **Service1** 생성자가 변경되면? **모든 Controller** → Controller 변경 필요 X
     
    결론적으로, **강한 결합 ⇒ 느슨한 결합**
     

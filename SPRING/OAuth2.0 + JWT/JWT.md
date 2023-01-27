@@ -1,6 +1,5 @@
 # **1. JWT(Json Web Token)란?**
 
----
 
 > JWT(Json Web Token)란 Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 Claim 기반의 Web Token이다.
 > 
@@ -13,7 +12,6 @@ JWT는 토큰 자체를 정보로 사용하는 Self-Contained 방식으로 정�
 
 # **2. JWT 구조**
 
----
 
 JWT는 **Header, Payload, Signature**의 3 부분으로 이루어지며, Json 형태인 각 부분은 **Base64Url로 인코딩** 되어 표현된다. 또한 각각의 부분을 이어 주기 위해 **.** 구분자를 사용하여 구분한다. 추가로 Base64Url는 암호화된 문자열이 아니고, 같은 문자열에 대해 항상 같은 인코딩 문자열을 반환한다.
 

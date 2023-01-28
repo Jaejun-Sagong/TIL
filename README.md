@@ -61,6 +61,8 @@
     - [Spring Boot](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Framework%EC%99%80%20Spring%20Boot%EC%9D%98%20%EC%B0%A8%EC%9D%B4/Spring%20Boot.md)
     - [Spring Framework(POJO, AOP, MVC)](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Framework%EC%99%80%20Spring%20Boot%EC%9D%98%20%EC%B0%A8%EC%9D%B4/Spring%20Framework(POJO%2C%20AOP%2C%20MVC).md)
     - [Spring Framework와 Spring Boot의 차이](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Framework%EC%99%80%20Spring%20Boot%EC%9D%98%20%EC%B0%A8%EC%9D%B4/Spring%20Framework%EC%99%80%20Spring%20Boot%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+- Spring Security
+    - [Spring Security와 동작원리](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Security/Spring%20Security%EC%99%80%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC.md)
 - filter와 interceptor의 차이
     - [filter와 interceptor의 차이](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/filter%EC%99%80%20interceptor%EC%9D%98%20%EC%B0%A8%EC%9D%B4/filter%EC%99%80%20interceptor%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 

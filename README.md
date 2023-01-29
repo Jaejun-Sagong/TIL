@@ -16,6 +16,8 @@
         - [ORM](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JPA/JPA/ORM.md)
     - QueryDSL
         - [QueryDSL](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JPA/QueryDSL/QueryDSL.md)
+    - Pagination
+        - [Page와 Slice](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JPA/Pagination/Page%EC%99%80%20Slice.md)
 - JVM
     - [JVM내부 구조와 메모리 구조](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JVM/JVM%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
     - [JVM이란.md](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JVM/JVM%EC%9D%B4%EB%9E%80.md)

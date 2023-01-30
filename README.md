@@ -24,7 +24,7 @@
 # OOP
 
 - [OOP란](https://github.com/Jaejun-Sagong/TIL/blob/main/OOP/OOP%EB%9E%80.md)
-
+- [객체 지향 vs 절차 지향](https://github.com/Jaejun-Sagong/TIL/blob/main/OOP/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20vs%20%EC%A0%88%EC%B0%A8%20%EC%A7%80%ED%96%A5.md)
 # OS
 
 - 메모리의 구조

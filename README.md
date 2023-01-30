@@ -25,6 +25,7 @@
 
 - [OOP란](https://github.com/Jaejun-Sagong/TIL/blob/main/OOP/OOP%EB%9E%80.md)
 - [객체 지향 vs 절차 지향](https://github.com/Jaejun-Sagong/TIL/blob/main/OOP/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20vs%20%EC%A0%88%EC%B0%A8%20%EC%A7%80%ED%96%A5.md)
+- [의존성(Dependency)이란? 컴파일타임 의존성 vs 런타임 의존성](https://github.com/Jaejun-Sagong/TIL/blob/main/OOP/%EC%9D%98%EC%A1%B4%EC%84%B1(Dependency)%EC%9D%B4%EB%9E%80%3F%20%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%ED%83%80%EC%9E%84%20%EC%9D%98%EC%A1%B4%EC%84%B1%20vs%20%EB%9F%B0%ED%83%80%EC%9E%84%20%EC%9D%98%EC%A1%B4%EC%84%B1.md)
 # OS
 
 - 메모리의 구조

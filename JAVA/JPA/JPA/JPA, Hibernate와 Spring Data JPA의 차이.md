@@ -5,7 +5,6 @@
 - **자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스.**
 - JPA는 특정 기능을 하는 **라이브러리가 아닌 인터페이스.**
 
----
 
 ## Hibernate는 JPA의 구현체이다
 
@@ -13,7 +12,6 @@
     - `javax.persistence.EntityManager`와 같은 인터페이스를 직접 구현한 라이브러리.
 - **JPA와 Hibernate는 마치 자바의 interface와 해당 interface를 구현한 class와 같은 관계.**
 
----
 
 ## Spring Data JPA는 JPA를 쓰기 편하게 만들어놓은 모듈이다
 

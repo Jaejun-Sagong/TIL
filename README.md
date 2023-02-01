@@ -85,6 +85,8 @@
 
 # 네트워크
 
+- CORS
+    - [CORS란](https://github.com/Jaejun-Sagong/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/CORS/CORS%EB%9E%80.md)
 - TCP와 UDP 개념
     - [TCP와 UDP 개념](https://github.com/Jaejun-Sagong/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%EC%99%80%20UDP%20%EA%B0%9C%EB%85%90/TCP%EC%99%80%20UDP%20%EA%B0%9C%EB%85%90.md)
 - Http

@@ -23,6 +23,7 @@
     - [JVM내부 구조와 메모리 구조](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JVM/JVM%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
     - [JVM이란.md](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JVM/JVM%EC%9D%B4%EB%9E%80.md)
 - Annotation
+    - [Annotation](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/Annotation/Annotation.md)
     - [MetaData](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/Annotation/MetaData.md)
 - 직렬화와 역직렬화
     - [직렬화와 역직렬화](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/%EC%A7%81%EB%A0%AC%ED%99%94%EC%99%80%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94/%EC%A7%81%EB%A0%AC%ED%99%94%EC%99%80%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94.md)

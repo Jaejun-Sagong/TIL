@@ -28,6 +28,8 @@
 - Annotation
     - [Annotation](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/Annotation/Annotation.md)
     - [MetaData](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/Annotation/MetaData.md)
+- 자료구조
+    - [배열과 연결리스트](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)
 - 직렬화와 역직렬화
     - [직렬화와 역직렬화](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/%EC%A7%81%EB%A0%AC%ED%99%94%EC%99%80%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94/%EC%A7%81%EB%A0%AC%ED%99%94%EC%99%80%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94.md)
     - [Parsing 과 Parser](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/%EC%A7%81%EB%A0%AC%ED%99%94%EC%99%80%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94/Parsing%20%EA%B3%BC%20Parser.md)

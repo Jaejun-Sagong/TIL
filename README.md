@@ -9,6 +9,7 @@
 
 - JAVA
     - [버전별 차이&특징](https://github.com/Jaejun-Sagong/TIL/blob/4346b63da9a07833a7e07a44f2dc3e243c22c15c/JAVA/JAVA/%EB%B2%84%EC%A0%84%EB%B3%84%20%EC%B0%A8%EC%9D%B4&%ED%8A%B9%EC%A7%95.md)
+    - [추상클래스와 인터페이스 차이](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JAVA/%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%20%EC%B0%A8%EC%9D%B4.md)
 - JPA
     - JPA
         - [JDBC](https://github.com/Jaejun-Sagong/TIL/blob/main/JAVA/JPA/JPA/JDBC.md)

@@ -76,6 +76,7 @@
 - OAuth2.0 + JWT
     - [JWT](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/OAuth2.0%20%2B%20JWT/JWT.md)
     - [OAuth2.0작동방식](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/OAuth2.0%20%2B%20JWT/OAuth2.0%EC%9E%91%EB%8F%99%EB%B0%A9%EC%8B%9D.md)
+    - [Access Token의 문제점과 Refresh Token](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/OAuth2.0%20%2B%20JWT/Access%20Token%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90%EA%B3%BC%20Refresh%20Token.md)
 - Spring Bean Life Cycle
     - [Spring Bean Life Cycle](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/Spring%20Bean%20Life%20Cycle.md)
     - [Spring Bean을 Spring IoC Container에 등록하는 방법](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/Spring%20Bean%EC%9D%84%20Spring%20IoC%20Container%EC%97%90%20%EB%93%B1%EB%A1%9D%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)

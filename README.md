@@ -80,7 +80,7 @@
 - Spring Bean Life Cycle
     - [Spring Bean Life Cycle](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/Spring%20Bean%20Life%20Cycle.md)
     - [Spring Bean을 Spring IoC Container에 등록하는 방법](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/Spring%20Bean%EC%9D%84%20Spring%20IoC%20Container%EC%97%90%20%EB%93%B1%EB%A1%9D%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
-    - [스프링 컨테이너와 빈이란?](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%99%80%20%EB%B9%88%EC%9D%B4%EB%9E%80%3F.md)
+    - [스프링 컨테이너(IoC 컨테이너)와 빈이란?](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%99%80%20%EB%B9%88%EC%9D%B4%EB%9E%80%3F.md)
     - [싱글톤패턴](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Bean%20Life%20Cycle/%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4.md)
 - Spring Framework와 Spring Boot의 차이
     - [Spring Boot](https://github.com/Jaejun-Sagong/TIL/blob/main/SPRING/Spring%20Framework%EC%99%80%20Spring%20Boot%EC%9D%98%20%EC%B0%A8%EC%9D%B4/Spring%20Boot.md)

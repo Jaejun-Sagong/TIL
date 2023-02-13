@@ -8,6 +8,7 @@
 # CS
 
 - [컴포넌트](https://github.com/Jaejun-Sagong/TIL/blob/main/CS/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.md)
+- [프록시](https://github.com/Jaejun-Sagong/TIL/blob/main/CS/%ED%94%84%EB%A1%9D%EC%8B%9C.md)
 
 # JAVA
 
